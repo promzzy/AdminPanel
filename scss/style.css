@@ -280,3 +280,22 @@
     margin: 0 0 10px; } }
 
 /*# sourceMappingURL=style.css.map */
+
+/* for  toggling side bar*/
+@media only screen and (max-width: 760px){
+  .mobile-sidebar{
+    z-index: 999;
+    transition: 0.5s ease;
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+    left: -100%;
+  }
+  .mobile-toggled{
+    left: 0;
+    opacity: 1;
+    transition: 0.5s ease;
+
+   
+  }
+}
